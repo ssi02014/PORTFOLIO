@@ -1,0 +1,207 @@
+/* header */
+header {
+    width: 100%;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(41, 47, 65);
+}
+header ul {
+    display: flex;
+}
+header .logo {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+}
+header .logo:hover {
+    color: #fff;
+}
+header .logo span {
+    color : #ff0157;
+}
+header ul li {
+    position: relative;
+    margin-right: 20px;
+    font-size: 1.25rem;
+}
+header ul li a {
+    color: #fff;
+}
+header ul li:hover a{
+    color: rgb(238, 163, 166);
+}
+
+/* banner */
+#banner{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(41,47,65);
+}
+.banner .content { text-align: center; }
+.banner .content h2 {
+    display:block;
+}
+.banner .content h2.bold {
+    font-size: 8rem;
+    font-weight: 500;
+    color: rgb(238, 163, 166);
+    margin-top: -100px;
+    letter-spacing: 4px;
+}
+.banner .content h2.thin {
+    font-size: 9rem;
+    font-weight: 100;
+    color: rgb(238, 163, 166);
+}
+.banner .content .btn {
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: #ff0157;
+    padding: 5px 15px;
+    color: #fff;
+    transition: all 0.2s ease;
+}
+.banner .content .btn:hover {
+    letter-spacing: 6px;
+}
+
+/* profile */
+.profile {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(23, 27, 39);
+}
+.profile .content {
+    padding: 25px;
+}
+.profile .profile_title {
+    color: rgb(238, 163, 166);
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.profile .img_box {
+    width: 180px;
+    margin: 0 auto;
+}
+.profile .img_box .profile_img {
+    width: 100%;
+    border-radius: 40%;
+    border: 2px solid rgba(11, 13, 19, 0.4);
+}
+.profile .img_box p {
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    background-color:  rgb(236, 134, 138);
+    font-weight: 600;
+    transition: transform 0.2s ease;
+    cursor: pointer;
+}
+.profile .img_box p:hover{
+    background-color:  rgb(241, 105, 110);
+}
+.profile ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.profile li { position: relative; }
+
+.profile li.github::before {
+    content: 'Github';
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    color: rgb(241, 105, 110);
+    display: none;
+}
+.profile li.blog::before { 
+    content: 'Blog';
+    position: absolute;
+    left: 5px;
+    bottom: -8px;
+    color: rgb(241, 105, 110);
+    display: none;
+}
+.profile li.facebook::before { 
+    content: 'Facebook';
+    position: absolute;
+    left: -8px;
+    bottom: -8px;
+    color: rgb(241, 105, 110);
+    display: none;
+}
+.profile li.instagram::before { 
+    content: 'Instagram';
+    position: absolute;
+    left: -12px;
+    bottom: -8px;
+    color: rgb(241, 105, 110);
+    display: none;
+}
+.profile li.github:hover::before { display: inline; }
+.profile li.blog:hover::before { display: inline; }
+.profile li.facebook:hover::before { display: inline; }
+.profile li.instagram:hover::before { display: inline; }
+.profile li a {
+    color: #fff;
+    font-size: 3rem;
+    margin-right: 50px;
+    cursor: pointer;
+}
+.profile li:hover a { color: rgb(238, 163, 166); }
+.profile_content { 
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.profile_left { 
+    width: 31.3333%;
+    margin-right: 2%;
+}
+.profile_left h3 { 
+    font-size: 6rem;
+    color: #fff;
+    margin-top: -10px;
+    text-align: center;
+}
+.profile_left p.phone{
+    font-size: 1.25rem;
+    color: rgb(238, 163, 166);
+    text-align: center;
+}
+.profile_left p.email {
+    font-size: 1.25rem;
+    color: rgb(238, 163, 166);
+    text-align: center;
+}
+.profile_center {
+    width: 33.3333%;
+    margin-right: 2%;
+}
+.profile_center p {
+    font-size: 1.25rem;
+    color: rgb(238, 163, 166);
+}
+.profile_center p strong {
+    color: #fff;
+}
+.profile_right { width: 33.3333;}
+.profile_right p {
+    font-size: 1.25rem;
+    color: rgb(238, 163, 166);
+}
+.profile_right p span {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: bold;
+}
