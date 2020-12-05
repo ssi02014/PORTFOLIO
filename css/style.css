@@ -1,0 +1,535 @@
+/* header */
+header {
+    position: fixed;
+    width: 100%;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(23, 27, 39);
+    z-index: 100;
+}
+header ul {
+    display: flex;
+}
+header .logo {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+}
+header .logo:hover {
+    color: #fff;
+}
+header .logo span {
+    color : #ff0157;
+}
+header ul li {
+    position: relative;
+    margin-right: 20px;
+    font-size: 1.25rem;
+}
+header ul li a {
+    color: #fff;
+}
+header ul li:hover a{
+    color: rgb(238, 163, 166);
+    border-bottom: 1px solid rgb(238, 163, 166);
+}
+
+/* banner */
+#banner{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(41,47,65);
+}
+.banner .container { text-align: center; }
+.banner .container h2 {
+    display:block;
+}
+.banner .container h2.bold {
+    font-size: 8rem;
+    font-weight: 500;
+    color: rgb(238, 163, 166);
+    margin-top: -100px;
+    letter-spacing: 4px;
+    animation: text 3s 1;
+}
+.banner .container h2.bold span {
+    color:rgb(241, 105, 110);
+    animation: text 3s 1;
+}
+.banner .container h2.thin {
+    font-size: 9rem;
+    font-weight: 100;
+    color: rgb(238, 163, 166);
+    animation: text 3s 1;
+}
+.banner .container h2.thin span {
+    color:rgb(241, 105, 110);
+    animation: text 3s 1;
+}
+
+.banner .container .btn {
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: #ff0157;
+    padding: 5px 15px;
+    color: #fff;
+    transition: all 0.2s ease;
+}
+.banner .container .btn:hover {
+    letter-spacing: 6px;
+}
+
+/* profile */
+#profile {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(23, 27, 39);
+}
+.profile .container {
+    padding: 25px;
+}
+.profile .profile_title {
+    color: rgb(238, 163, 166);
+    font-size: 4.5rem;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    letter-spacing: 7px;
+    font-weight: 600;
+}
+.profile .img_box {
+    width: 180px;
+    margin: 0 auto;
+}
+.profile .img_box .profile_img {
+    width: 100%;
+    border-radius: 40%;
+    border: 2px solid rgba(11, 13, 19, 0.4);
+}
+.profile .img_box p {
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    background-color:  rgb(236, 134, 138);
+    font-weight: 600;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.profile .img_box p:hover{
+    background-color:  rgb(241, 88, 93);
+}
+.profile ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.profile li { position: relative; }
+
+.profile li.github::before {
+    content: 'Github';
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    color: rgb(241, 105, 110);
+    display: none;
+}
+.profile li.blog::before { 
+    content: 'Blog';
+    position: absolute;
+    left: 5px;
+    bottom: -8px;
+    color: rgb(241, 105, 110);
+    display: none;
+}
+.profile li.facebook::before { 
+    content: 'Facebook';
+    position: absolute;
+    left: -8px;
+    bottom: -8px;
+    color: rgb(241, 105, 110);
+    display: none;
+}
+.profile li.instagram::before { 
+    content: 'Instagram';
+    position: absolute;
+    left: -12px;
+    bottom: -8px;
+    color: rgb(241, 105, 110);
+    display: none;
+}
+.profile li.github:hover::before { display: inline; }
+.profile li.blog:hover::before { display: inline; }
+.profile li.facebook:hover::before { display: inline; }
+.profile li.instagram:hover::before { display: inline; }
+.profile li a {
+    color: #fff;
+    font-size: 3rem;
+    margin-right: 50px;
+    cursor: pointer;
+}
+.profile li:hover a { color: rgb(238, 163, 166); }
+.profile_content { 
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.profile_left { 
+    position: relative;
+    width: 33.3333%;
+    margin-right: 1%;
+}
+.profile_left::after {
+    content: '';
+    position: absolute;
+    right: 0px;
+    top: 0;
+    background:#999;
+    width: 1px;
+    height: 240px;
+}
+.profile_left h3 { 
+    font-size: 6rem;
+    color: #fff;
+    margin-top: -10px;
+    text-align: center;
+}
+.profile_left p.phone{
+    font-size: 1.25rem;
+    color: rgb(241, 105, 110);;
+    text-align: center;
+}
+.profile_left p.email {
+    font-size: 1.25rem;
+    color: rgb(241, 105, 110);
+    text-align: center;
+}
+.profile_center {
+    position: relative;
+    width: 30%;
+    margin-right: 2%;
+}
+.profile_center::after {
+    content: '';
+    position: absolute;
+    right: -15px;
+    top: 0;
+    background:#999;
+    width: 1px;
+    height: 240px;
+}
+.profile_center p {
+    font-size: 1.25rem;
+    color: rgb(238, 163, 166);
+    font-weight: 600;
+}
+.profile_center p strong {
+    color: #fff;
+    font-size: 1.5rem;
+}
+.profile_right { 
+    width: 31.3333%;
+}
+.profile_right p {
+    font-size: 1.25rem;
+    color: rgb(241, 105, 110);
+    margin-bottom: 20px;
+}
+.profile_right p span {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: bold;
+    display:block;
+}
+
+/* skils */
+#skils {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(41,47,65);
+}
+.skils .container {
+    padding: 25px;
+}
+.skils .skils_title h3 {
+    color: rgb(238, 163, 166);
+    font-size: 4.5rem;
+    text-align: center;
+    margin-top: 40px;
+    letter-spacing: 7px;
+    font-weight: 600;
+}
+.skils .skils_title p {
+    color:  rgb(241, 105, 110);
+    font-size: 1.5rem;
+    text-align: center;
+}
+.skils_box { 
+    display: flex;
+    margin: 80px 0 100px 0;
+}
+.skils_box div {
+    margin-right: 70px;
+}
+.skils_box div:last-child{
+    margin-right: 0;
+}
+.skils_html {
+    position: relative;
+    background: #fff;
+    width: 150px;
+    text-align: center;
+    border-radius: 5%;
+    cursor: pointer;
+    border: 3px solid  rgba(55, 63, 87, 0.9);
+}
+.skils_html:hover i,
+.skils_html:hover p {
+    opacity: 0.4;
+}
+.skils_html i {
+    margin-top: 10px;
+    font-size: 8rem;
+    color: rgb(241, 101, 40);
+}
+.skils_html p {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.skils_html span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    text-align: center;
+    opacity: 0;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    transform: translate(95%, -50%) rotate(180deg); /* translate(x축 y축) */
+    font-size: 1.8rem;
+}
+.skils_html span::after{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+    content: "";
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0,0.9);
+    transform: translate(-50%, -50%)
+}
+.skils_html:hover span {
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 1;
+}
+.skils_css {
+    position: relative;
+    background: #fff;
+    width: 150px;
+    text-align: center;
+    border-radius: 5%;
+    cursor: pointer;
+    border: 3px solid  rgba(55, 63, 87, 0.9);
+}
+.skils_css:hover i,
+.skils_css:hover p {
+    opacity: 0.4;
+}
+.skils_css i {
+    margin-top: 10px;
+    font-size: 8rem;
+    color: rgb(21, 114, 183);
+}
+.skils_css p {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.skils_css span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    text-align: center;
+    opacity: 0;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    transform: translate(95%, -50%) rotate(180deg); /* translate(x축 y축) */
+    font-size: 1.8rem;
+}
+.skils_css span::after{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+    content: "";
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0,0.9);
+    transform: translate(-50%, -50%)
+}
+.skils_css:hover span{
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 1;
+}
+.skils_javascript {
+    position: relative;
+    background: #fff;
+    width: 150px;
+    text-align: center;
+    border-radius: 5%;
+    cursor: pointer;
+    border: 3px solid  rgba(55, 63, 87, 0.9);
+    
+}
+.skils_javascript:hover i,
+.skils_javascript:hover p {
+    opacity: 0.4;
+}
+.skils_javascript i {
+    margin-top: 10px;
+    font-size: 8rem;
+    color: rgb(253, 217, 59);
+}
+.skils_javascript p {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.skils_javascript span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    text-align: center;
+    opacity: 0;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    transform: translate(95%, -50%) rotate(180deg); /* translate(x축 y축) */
+    font-size: 1.8rem;
+}
+.skils_javascript span::after{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+    content: "";
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0,0.9);
+    transform: translate(-50%, -50%)
+}
+.skils_javascript:hover span{
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 1;
+}
+.skils_react {
+    position: relative;
+    background: #fff;
+    width: 150px;
+    text-align: center;
+    border-radius: 5%;
+    cursor: pointer;
+    border: 3px solid  rgba(55, 63, 87, 0.9);
+}
+.skils_react:hover i,
+.skils_react:hover p {
+    opacity: 0.4;
+}
+.skils_react i {
+    margin-top: 10px;
+    font-size: 8rem;
+    color: rgb(23, 211, 255);
+}
+.skils_react p {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.skils_react span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    text-align: center;
+    opacity: 0;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    transform: translate(95%, -50%) rotate(180deg); /* translate(x축 y축) */
+    font-size: 1.8rem;
+}
+.skils_react span::after{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+    content: "";
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0,0.9);
+    transform: translate(-50%, -50%)
+}
+.skils_react:hover span{
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+/* cursor */
+.cursor {
+    position: fixed;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #999;
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: .1s;
+}
+.cursor2 {
+    position: fixed;
+    width: 5px;
+    height: 5px;
+    background-color: #fff;
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: .15s;
+}
+
+/* animation */
+@keyframes text {
+    0% {
+        color: rgb(41,47,65);
+    }
+    30% {
+        letter-spacing: 35px;
+    }
+    85% {
+        letter-spacing: 8px;
+    }
+}

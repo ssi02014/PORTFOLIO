@@ -3,11 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Jeon Min Jae">
+    <meta name="description" content="전민재 포트폴리오 입니다.">
+    <meta name="keywords" content="포트폴리오, PortFolio, 전민재, JeonMinJae">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PORTFOLIO</title>
 
     <!-- css -->
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
 
     <!-- 웹 폰트 -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
@@ -19,10 +24,10 @@
 <body>
     <!-- header -->
     <header id="home">
-        <a href="#" class="logo">MJ<span>.</span>PortFolio<span>.</span></a>
+        <a href="#" class="logo">MJ<span>.</span>PORTFOLIO</a>
         <div class="menuToggle"></div>
         <ul class="navigation">
-            <li><a href="#home">Home</a></li>
+            <li><a href="#banner">Home</a></li>
             <li><a href="#profile">Profile</a></li>
             <li><a href="#skils">Skils</a></li>
             <li><a href="#portFolio">PortFolio</a></li>
@@ -32,25 +37,49 @@
     <!-- //header -->
 
     <section class="banner" id="banner">
-        <div class="content">
-            <h2 class="thin">PORTFOLIO</h2>
-            <h2 class="bold">FRONT DEVELOPER</h2>
+        <div class="container">
+            <h2 class="thin"><span>P</span>O<span>R</span>T<span>F</span>O<span>L</span>I<span>O</span></h2>
+            <h2 class="bold"><span>W</span>EB <span>D</span>EVE<span>L</span>OPE<span>R</span></h2>
         </div>
     </section>
 
     <!-- profile -->
     <section id="profile" class="profile">
-        <div class="content">
+        <div class="container">
             <h3 class="profile_title">PROFILE</h3>
             <div class="img_box">
                 <img class="profile_img" src="./img/profile.jpg" alt="프로필사진">
                 <p>JeonMinJae</p>
             </div>
             <ul>
-                <li class="github"><a href="https://github.com/ssi02014" target="_blank"><i class="fab fa-github"></a></i></li>
-                <li class="blog"><a href="https://blog.naver.com/ssi02014" target="_blank"><i class="fas fa-blog"></a></i></li>
-                <li class="facebook"><a href="https://www.facebook.com/people/%EC%A0%84%EB%AF%BC%EC%9E%AC/100003685736068" target="_blank"><i class="fab fa-facebook"></a></i></li>
-                <li class="instagram"><a href="https://www.instagram.com/alswodidi/" target="_blank"><i class="fab fa-instagram"></a></i></li>
+                <li class="github">
+                    <a href="https://github.com/ssi02014" target="_blank">
+                        <i class="fab fa-github">
+                            <span class="ir_su">Github</span>
+                        </i>
+                    </a>
+                </li>
+                <li class="blog">
+                    <a href="https://blog.naver.com/ssi02014" target="_blank">
+                        <i class="fas fa-blog">
+                            <span class="ir_su">Blog</span>
+                        </i>
+                    </a>
+                </li>
+                <li class="facebook">
+                    <a href="https://www.facebook.com/people/%EC%A0%84%EB%AF%BC%EC%9E%AC/100003685736068" target="_blank">
+                        <i class="fab fa-facebook">
+                            <span class="ir_su">Facebook</span>
+                        </i>
+                    </a>
+                </li>
+                <li class="instagram">
+                    <a href="https://www.instagram.com/alswodidi/" target="_blank">
+                        <i class="fab fa-instagram">
+                            <span class="ir_su">instagram</span>
+                        </i>
+                    </a>
+                </li>
             </ul>
             <div class="profile_content">
                 <div class="profile_left">
@@ -68,6 +97,7 @@
                     </p>
                 </div>
                 <div class="profile_right">
+                    <p><span>생년월일</span> 1995.09.13</p>
                     <p><span>학력</span> 인덕대학교 정보통신공학과 4년제 졸업</p>
                     <p><span>자격증</span> 정보처리기사</p>
                 </div>
@@ -75,5 +105,45 @@
         </div>
     </section>
      <!-- //profile -->
+    
+    <!-- skils -->
+    <section id="skils" class="skils">
+        <div class="container">
+            <div class="skils_title">
+                <h3 class="skils_header">SKILS</h3>
+                <p>Hover Effect</p>
+            </div>
+            <div class="skils_box">
+                <div class="skils_html">
+                    <i class="fab fa-html5"></i>
+                    <p>HTML</p>
+                    <span>95%</span>
+                </div>
+                <div class="skils_css">
+                    <i class="fab fa-css3-alt"></i>
+                    <p>CSS</p>
+                    <span>90%</span>
+                </div>
+                <div class="skils_javascript">
+                    <i class="fab fa-js-square"></i>
+                    <p>JavaScript</p>
+                    <span>80%</span>
+                </div>
+                <div class="skils_react">
+                    <i class="fab fa-react"></i>
+                    <p>React</p>
+                    <span>75%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- cursor -->
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+
+    <!-- script -->
+    <script src="./js/mousemove.js"></script>
 </body>
 </html>
