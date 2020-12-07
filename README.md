@@ -1,7 +1,9 @@
 # PortFolio
 
 ## Github Page: https://ssi02014.github.io/PORTFOLIO/ 
+
 ## 사용 스텍: HTML, CSS, Vanila JavaScript 
+
 ### 설명: 전민재 PORTFOLIO
 1. Banner - Text Animation
 2. Profile - Hover Effect
