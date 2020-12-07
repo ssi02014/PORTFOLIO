@@ -32,3 +32,16 @@
  </ol>
 
 <br>
+
+<h2>2020-12-07</h2>
+ <ol>
+  <li>
+    <strong>PortFolio 영역</strong>
+    <ul>
+        <li>Parallax Effect</li>
+        <li>반응형 vw단위 사용</li>
+    </ul>
+  </li>
+ </ol>
+
+<br>

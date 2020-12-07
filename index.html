@@ -16,6 +16,9 @@
 
     <!-- 웹 폰트 -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,700,900&display=swap" rel="stylesheet">
 
     <!-- font-awesome -->
     <script src="https://kit.fontawesome.com/ff7e7a49c6.js" crossorigin="anonymous"></script>
@@ -30,7 +33,7 @@
             <li><a href="#banner">Home</a></li>
             <li><a href="#profile">Profile</a></li>
             <li><a href="#skils">Skils</a></li>
-            <li><a href="#portFolio">PortFolio</a></li>
+            <li><a href="#portfolio">PortFolio</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </header>
@@ -47,59 +50,49 @@
     <section id="profile" class="profile">
         <div class="container">
             <h3 class="profile_title">PROFILE</h3>
-            <div class="img_box">
-                <img class="profile_img" src="./img/profile.jpg" alt="프로필사진">
-                <p>JeonMinJae</p>
-            </div>
-            <ul>
-                <li class="github">
-                    <a href="https://github.com/ssi02014" target="_blank">
-                        <i class="fab fa-github">
-                            <span class="ir_su">Github</span>
-                        </i>
-                    </a>
-                </li>
-                <li class="blog">
-                    <a href="https://blog.naver.com/ssi02014" target="_blank">
-                        <i class="fas fa-blog">
-                            <span class="ir_su">Blog</span>
-                        </i>
-                    </a>
-                </li>
-                <li class="facebook">
-                    <a href="https://www.facebook.com/people/%EC%A0%84%EB%AF%BC%EC%9E%AC/100003685736068" target="_blank">
-                        <i class="fab fa-facebook">
-                            <span class="ir_su">Facebook</span>
-                        </i>
-                    </a>
-                </li>
-                <li class="instagram">
-                    <a href="https://www.instagram.com/alswodidi/" target="_blank">
-                        <i class="fab fa-instagram">
-                            <span class="ir_su">instagram</span>
-                        </i>
-                    </a>
-                </li>
-            </ul>
             <div class="profile_content">
                 <div class="profile_left">
-                    <h3>HELLO</h3>
-                    <p class="phone">010-2592-5591</p>
-                    <p class="email">ssi02014@naver.com</p>
-                </div>
-                <div class="profile_center">
-                    <p>안녕하세요. 웹 프론트엔드 개발자를 희망하는 <strong>전민재</strong>입니다.<br>
-                        저는 약 6개월기간 동안 웹 프론트엔드 개발자를 위한 공부를 해오고 있으며,
-                        웹 프론트엔드 개발 공부를 시작하면서 저에게 열정과 희열을 안겨주는
-                        웹 프론트엔드 개발자가 되기로 마음을 먹었습니다.<br>
-                        현재 <strong>HTML, CSS, JavaScript, React</strong>를 다룰 수 있으며, 모든 일에 책임감과
-                        배우는 자세로 성실하게 임하도록 하겠습니다. 감사합니다.<br>
-                    </p>
+                    <img class="profile_img" src="./img/profile.jpg" alt="프로필사진">
                 </div>
                 <div class="profile_right">
-                    <p><span>생년월일</span> 1995.09.13</p>
-                    <p><span>학력</span> 인덕대학교 정보통신공학과 4년제 졸업</p>
-                    <p><span>자격증</span> 정보처리기사</p>
+                    <div class="profile_record">
+                        <h3>Hello <span>I'm Min Jae</span></h3>
+                        <p><span>Date of Birth</span> 1995.09.13</p>
+                        <p><span>Education</span> 인덕대학교 정보통신공학과 4년제 졸업</p>
+                        <p><span>Certificate</span> 정보처리기사</p>
+                        <div class="profile_sns">
+                            <ul>
+                                <li class="github">
+                                    <a href="https://github.com/ssi02014" target="_blank">
+                                        <i class="fab fa-github">
+                                            <span class="ir_su">Github</span>
+                                        </i>
+                                    </a>
+                                </li>
+                                <li class="blog">
+                                    <a href="https://blog.naver.com/ssi02014" target="_blank">
+                                        <i class="fas fa-blog">
+                                            <span class="ir_su">Blog</span>
+                                        </i>
+                                    </a>
+                                </li>
+                                <li class="facebook">
+                                    <a href="https://www.facebook.com/people/%EC%A0%84%EB%AF%BC%EC%9E%AC/100003685736068" target="_blank">
+                                        <i class="fab fa-facebook">
+                                            <span class="ir_su">Facebook</span>
+                                        </i>
+                                    </a>
+                                </li>
+                                <li class="instagram">
+                                    <a href="https://www.instagram.com/alswodidi/" target="_blank">
+                                        <i class="fab fa-instagram">
+                                            <span class="ir_su">instagram</span>
+                                        </i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -117,33 +110,147 @@
                 <div class="skils_html">
                     <i class="fab fa-html5"></i>
                     <p>HTML</p>
-                    <span>95%</span>
+                    <span>90%</span>
                 </div>
                 <div class="skils_css">
                     <i class="fab fa-css3-alt"></i>
                     <p>CSS</p>
-                    <span>90%</span>
+                    <span>85%</span>
                 </div>
                 <div class="skils_javascript">
                     <i class="fab fa-js-square"></i>
                     <p>JavaScript</p>
-                    <span>80%</span>
+                    <span>75%</span>
                 </div>
                 <div class="skils_react">
                     <i class="fab fa-react"></i>
                     <p>React</p>
-                    <span>75%</span>
+                    <span>70%</span>
                 </div>
             </div>
         </div>
     </section>
+    <!-- //skils -->
 
+    <!-- PortFolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="portfolio_title">
+                <h3 class="skils_header">PortFolio</h3>
+                <p>Parallax Effect</p>
+            </div>
+            <div class="portfolio_contents">
+                <section id="section1" class="content-item">
+                    <span class="content-item-num"><em>0</em>1</span>
+                    <div class="content-item-imgWrap">
+                        <div class="content-item-imgbox">
+                            <img src="./img/webstandard.jpg" alt="웹표준형사이트">
+                        </div>
+                        <div class="content-item-desc">
+                            <p>웹 표준형 사이트</p>
+                            <a href="https://www.naver.com" target="_blank">View More</a>
+                        </div>
+                    </div>
+                </section>
 
-    <!-- cursor -->
+                <section id="section2" class="content-item">
+                    <span class="content-item-num"><em>0</em>2</span>
+                    <div class="content-item-imgWrap">
+                        <div class="content-item-imgbox">
+                            <img src="./img/responsive.jpg" alt="웹표준반응형사이트">
+                        </div>
+                        <div class="content-item-desc">
+                            <p>웹 표준 반응형 사이트</p>
+                            <a href="" target="_blank">View More</a>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="section3" class="content-item">
+                    <span class="content-item-num"><em>0</em>3</span>
+                    <div class="content-item-imgWrap">
+                        <div class="content-item-imgbox">
+                            <img src="./img/mega.jpg" alt="메가박스(v2019)">
+                        </div>
+                        <div class="content-item-desc">
+                            <p>MEGA BOX(v2019)</p>
+                            <a href="" target="_blank">View More</a>
+                        </div>
+                    </div>
+                </section>
+                
+                <section id="section4" class="content-item">
+                    <span class="content-item-num"><em>0</em>4</span>
+                    <div class="content-item-imgWrap">
+                        <div class="content-item-imgbox">
+                            <img src="./img/weatherapp.jpg" alt="날씨앱">
+                        </div>
+                        <div class="content-item-desc">
+                            <p>Weather App</p>
+                            <a href="" target="_blank">View More</a>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="section5" class="content-item">
+                    <span class="content-item-num"><em>0</em>5</span>
+                    <div class="content-item-imgWrap">
+                        <div class="content-item-imgbox">
+                            <img src="./img/Calculator.jpg" alt="계산기앱">
+                        </div>
+                        <div class="content-item-desc">
+                            <p>Calculator App</p>
+                            <a href="" target="_blank">View More</a>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="section6" class="content-item">
+                    <span class="content-item-num"><em>0</em>6</span>
+                    <div class="content-item-imgWrap">
+                        <div class="content-item-imgbox">
+                            <img src="./img/movieapp.jpg" alt="영화앱">
+                        </div>
+                        <div class="content-item-desc">
+                            <p>REACT Movie App</p>
+                            <a href="" target="_blank">View More</a>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="section7" class="content-item">
+                    <span class="content-item-num"><em>0</em>7</span>
+                    <div class="content-item-imgWrap">
+                        <div class="content-item-imgbox">
+                            <img src="./img/todolist.jpg" alt="투두리스트">
+                        </div>
+                        <div class="content-item-desc">
+                            <p>REACT ToDoList</p>
+                            <a href="" target="_blank">View More</a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+    <!-- //PortFolio -->
+
+    <!-- Mouser cursor -->
     <div class="cursor"></div>
     <div class="cursor2"></div>
 
     <!-- script -->
-    <script src="./js/mousemove.js"></script>
+    <script src="./js/index.js"></script>
+
+    <!-- Mouse Effect -->
+    <script>
+        let cursor = document.querySelector('.cursor');
+        let cursor2 = document.querySelector('.cursor2');
+
+        document.addEventListener('mousemove', function(e) {
+            cursor.style.cssText = cursor2.style.cssText = "left:" + e.clientX + 
+            "px; top: " + e.clientY + "px;";
+        });
+    </script>
 </body>
 </html>
