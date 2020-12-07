@@ -1,13 +1,18 @@
 # PortFolio
 
-<h2>Github Page: https://ssi02014.github.io/PORTFOLIO/</h2>
-<h3>사용 스텍: HTML, CSS, Vanila JavaScript</h3>
+## Github Page: https://ssi02014.github.io/PORTFOLIO/ 
+## 사용 스텍: HTML, CSS, Vanila JavaScript 
+### 설명: 전민재 PORTFOLIO
+1. Banner - Text Animation
+2. Profile - Hover Effect
+3. PortFolio - Parallax Effect 
 
-<h3>Use Stuff</h3>
+
+### Use Stuff 
 <strong>Font-Awesome, Google Font</strong>
 
 
-<h2>2020-12-01</h2>
+## 2020-12-01
  <ol>
   <li><strong>Header 영역 구현</strong></li>
   <li>
@@ -21,7 +26,7 @@
 
 <br>
 
-<h2>2020-12-05</h2>
+## 2020-12-05
  <ol>
   <li>
     <strong>Skils 영역 구현</strong>
@@ -33,7 +38,7 @@
 
 <br>
 
-<h2>2020-12-07</h2>
+## 2020-12-07
  <ol>
  <li><strong>ProFile 영역 디자인 수정</strong></li>
   <li>
