@@ -183,7 +183,7 @@ header ul li:hover a{
     margin-right: 50px;
     cursor: pointer;
 }
-.profile_record .profile_sns li:hover a { color: #ccc; }
+.profile_record .profile_sns li:hover a { color: rgb(160, 158, 158); }
 .profile_content { 
     display: flex;
     margin-top: 80px;
@@ -225,9 +225,11 @@ header ul li:hover a{
 }
 .skils_box div {
     margin-right: 70px;
+    overflow: hidden;
 }
 .skils_box div:last-child{
     margin-right: 0;
+    
 }
 .skils_html {
     position: relative;
