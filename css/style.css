@@ -7,7 +7,7 @@ header {
     justify-content: space-between;
     align-items: center;
     background: rgb(23, 27, 39);
-    z-index: 100;
+    z-index: 2500;
 }
 header ul {
     display: flex;
@@ -498,19 +498,29 @@ header ul li:hover a{
     border-radius: 3%;
     box-shadow: 10px 20px 5px rgba(0, 0, 0, 0.4);
 }
-.content-item-desc p {
-    margin-top: 15vw;
+.content-item-desc h3 {
+    margin-top: 12vw;
     font-size: 4vw;
     color: #fff;
 }
+.content-item-desc h3 span.javascript { color: rgb(253, 217, 59); }
+.content-item-desc h3 span.react { color: rgb(23, 211, 255); }
+.content-item-desc h3 span.version { 
+    font-size: 2vw;
+}
+.content-item-desc p {
+    font-size: 1.35vw;
+    color: #fff
+}
+.content-item-desc p span { color: rgb(238, 163, 166); }
 .content-item-desc a {
-    font-size: 1.5vw;
+    font-size: 1vw;
     color: #fff;
     float: right;
-    padding: 5px 15px;
+    padding: 8px 25px;
     background: rgb(241, 105, 110);
     transition: all .3s ease;
-    margin-top: 1vw;
+    margin-top: 1.5vw;
 }
 .content-item-desc a:hover {
     color:  rgb(241, 105, 110);

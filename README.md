@@ -4,9 +4,9 @@
 
 ## 사용 스텍: HTML, CSS, Vanila JavaScript 
 
-### 설명: 전민재 PORTFOLIO
+### 포트폴리오 설명: 전민재 PORTFOLIO
 1. Banner - Text Animation
-2. Profile - Hover Effect
+2. Skils - Hover Effect
 3. PortFolio - Parallax Effect 
 
 
