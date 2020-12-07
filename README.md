@@ -9,14 +9,14 @@
 
 <h2>2020-12-01</h2>
  <ol>
-  <li><strong>Header 영역</strong></li>
+  <li><strong>Header 영역 구현</strong></li>
   <li>
-    <strong>Banner 영역</strong>
+    <strong>Banner 영역 구현</strong>
     <ul>
         <li>Animation 적용</li>
     </ul>
   </li>
-  <li><strong>ProFile 영역</strong></li>
+  <li><strong>ProFile 영역 구현</strong></li>
  </ol>
 
 <br>
@@ -24,7 +24,7 @@
 <h2>2020-12-05</h2>
  <ol>
   <li>
-    <strong>Skils 영역</strong>
+    <strong>Skils 영역 구현</strong>
     <ul>
         <li>Hover Effect</li>
     </ul>
@@ -35,8 +35,9 @@
 
 <h2>2020-12-07</h2>
  <ol>
+ <li><strong>ProFile 영역 디자인 수정</strong></li>
   <li>
-    <strong>PortFolio 영역</strong>
+    <strong>PortFolio 영역 구현</strong>
     <ul>
         <li>Parallax Effect</li>
         <li>반응형 vw단위 사용</li>
