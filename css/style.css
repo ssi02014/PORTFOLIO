@@ -457,7 +457,10 @@ header ul li:hover a{
     text-align: center;
     margin-top: -15px;
 }
-.portfolio_contents { width: 100%; }
+.portfolio_contents { 
+    width: 100%;
+    overflow: hidden; 
+}
 .content-item {
     position: relative;
     width: 1900px;
@@ -484,10 +487,9 @@ header ul li:hover a{
 .content-item-imgbox {
     width: 40vw;
     margin-right: 30px;
+    margin-left: 30px;
 } 
 .content-item:nth-child(even) .content-item-imgbox{
-    margin-left: 30px;
-    margin-right: 0;
 }
 .content-item-imgbox img{
     width: 100%;
