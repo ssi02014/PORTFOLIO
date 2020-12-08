@@ -72,6 +72,7 @@
   <li><strong>Banner 영역 반응형 구현</strong></li>
   <li><strong>Profile 영역 반응형 구현</strong></li>
   <li><strong>Skils 영역 반응형 구현</strong></li>
+  <li><strong>Contact 영역 반응형 구현</strong></li>
  </ol>
 
 <br>
