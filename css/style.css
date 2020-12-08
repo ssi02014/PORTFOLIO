@@ -842,6 +842,10 @@ header ul li:hover a{
     .skils_box div {
         margin-right: 20px;
     }
+
+    /* portfoilo */
+    .portfoilo_title { font-size: 4rem;}
+    .contact_title h3{ font-size: 4rem; }
 }
 
 @media (max-width: 768px) {
@@ -882,6 +886,18 @@ header ul li:hover a{
     .banner .container h2.thin {
         font-size: 5rem;
     }
+
+    /* profile */
+    .profile_record p {
+        font-size: 1rem;
+    }
+    .profile_record > span {
+        font-size: 1.5rem;
+    }
+    .profile_record p span {
+        font-size: 1rem;
+    }
+    .profile_content .profile_left { width: 150px; }
     /* skils */
     .skils_box {
         margin: 50px 0 100px 0;
@@ -924,6 +940,10 @@ header ul li:hover a{
     .banner .container h2.thin {
         font-size: 4rem;
     }
+
+    /* contact */
+    .contact .container { padding: 10px;}
+    .contact .contact_title h3 { margin-top: 0;}
 }
 
 
