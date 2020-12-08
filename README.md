@@ -13,6 +13,8 @@
 1. Banner - Text Animation
 2. Skils - Hover Effect
 3. PortFolio - Parallax Effect 
+4. Contact - HTML 정적 Form (Server X)
+4. 반응형 ( 460px, 600px, 768px, 960px, 1030px, 1300px, 1500px)
 
 
 ### Use Stuff 
