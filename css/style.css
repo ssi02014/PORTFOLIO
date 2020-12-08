@@ -921,13 +921,29 @@ header ul li:hover a{
     .skils_css i,
     .skils_javascript i,
     .skils_react i {
-        font-size: 4rem;
+        font-size: 3.25rem;
     }
     .skils_html p,
     .skils_css p,
     .skils_javascript p,
     .skils_react p {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
+    }
+    .skils_javascript p {
+        margin-top: 0;
+    }
+    .skils_html span,
+    .skils_css span,
+    .skils_javascript span,
+    .skils_react span {
+        font-size: 1rem;
+    }
+    .skils_html span::after,
+    .skils_css span::after,
+    .skils_javascript span::after,
+    .skils_react span::after {
+        width: 60px;
+        height: 60px;
     }
 
 }
@@ -944,6 +960,31 @@ header ul li:hover a{
     /* contact */
     .contact .container { padding: 10px;}
     .contact .contact_title h3 { margin-top: 0;}
+
+    .skils_html {
+        width: 52%;
+    }
+    .skils_css {
+        width: 52%;
+    }
+    .skils_javascript {
+        width: 52%;
+    }
+    .skils_react {
+        width: 52%;
+    }
+    .skils_html i,
+    .skils_css i,
+    .skils_javascript i,
+    .skils_react i {
+        font-size: 3rem;
+    }
+    .skils_html p,
+    .skils_css p,
+    .skils_javascript p,
+    .skils_react p {
+        font-size: 1.25rem;
+    }
 }
 
 
