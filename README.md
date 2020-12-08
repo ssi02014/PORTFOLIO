@@ -53,3 +53,25 @@
  </ol>
 
 <br>
+
+## 2020-12-07
+ <ol>
+  <li>
+    <strong>Contact 영역 구현</strong>
+    <ul>
+        <li>Google Apps Mail을 이용한 정적 HTML Form 구현</li>
+    </ul>
+  </li>
+  <li><strong>Footer 영역 디자인 수정</strong></li>
+  <li>
+    <strong>Header 영역 반응형 구현</strong>
+    <ul>
+        <li>Toggle Menu 적용</li>
+    </ul>
+  </li>
+  <li><strong>Banner 영역 반응형 구현</strong></li>
+  <li><strong>Profile 영역 반응형 구현</strong></li>
+  <li><strong>Skils 영역 반응형 구현</strong></li>
+ </ol>
+
+<br>

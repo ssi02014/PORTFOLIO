@@ -28,8 +28,8 @@
     <!-- header -->
     <header id="home">
         <a href="#" class="logo">MJ<span>.</span>PORTFOLIO</a>
-        <div class="menuToggle"></div>
-        <ul class="navigation">
+        <div class="menuToggle" onclick="toggleMenu()"></div>
+        <ul class="navigation" onclick="toggleMenu()">
             <li><a href="#banner">Home</a></li>
             <li><a href="#profile">Profile</a></li>
             <li><a href="#skils">Skils</a></li>
@@ -56,7 +56,7 @@
                 </div>
                 <div class="profile_right">
                     <div class="profile_record">
-                        <h3>Hello <span>I'm Min Jae</span></h3>
+                        <h3>Hello</h3><span>I'm Min Jae</span>
                         <p><span>Date of Birth</span> 1995.09.13</p>
                         <p><span>Education</span> 인덕대학교 정보통신공학과 4년제 졸업</p>
                         <p><span>Certificate</span> 정보처리기사</p>
@@ -257,11 +257,50 @@
     </section>
     <!-- //PortFolio -->
 
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact_title">
+                <h3 class="contact_header">Contact Me</h3>
+            </div>
+            <form 
+                class="gform" 
+                method="POST" 
+                autocomplete="off" 
+                data-email="ssi02014@naver.com"
+                action="https://script.google.com/macros/s/AKfycbxfBUGY5jT7guFrqEsUcaBmVlDr4x4EGMZuF6T7/exec"
+            >
+                <div class="input_box">
+                    <input id="name" name="name" type="text" placeholder="Name">
+                </div>
+                <div class="input_box">
+                    <input id="tel" name="tel" type="text" placeholder="Phone Number">
+                </div>
+                <div class="input_box">
+                    <input name="email" id="email" type="text"  placeholder="Email">
+                </div>
+                <div class="input_box">
+                    <textarea name="ask" id="ask" cols="10" rows="5"placeholder="Write your message here"></textarea>
+                </div>
+                <div class="input_box">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- //Contact -->
+    <footer id="footer">
+        <div class="copyrightText">
+            <p>Copyright 2020 Design & Developed By. <a href="https://github.com/ssi02014" target="_blank">JeonMinJae.</a> All right Reserved</p>
+        </div>
+    </footer>
+
     <!-- Mouser cursor -->
     <div class="cursor"></div>
     <div class="cursor2"></div>
 
     <!-- script -->
+    <script src="./js/parallax.js"></script>
     <script src="./js/index.js"></script>
 
     <!-- Mouse Effect -->

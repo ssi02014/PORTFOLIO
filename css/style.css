@@ -117,11 +117,12 @@ header ul li:hover a{
     box-shadow: 10px 20px 5px rgba(0, 0, 0, 0.4);
 }
 .profile_record h3 {
+    display: inline;
     font-size: 5rem;
     color: #fff;
-    margin-bottom: 20px;
+    margin-right: 10px;
 }
-.profile_record h3 span {
+.profile_record span {
     font-size: 1.5rem;
     color: rgb(238, 163, 166);
 }
@@ -140,6 +141,9 @@ header ul li:hover a{
     margin-top: 30px;
 }
 .profile_record .profile_sns li { position: relative; }
+/* .profile_record .profile_sns li:last-child a {
+    margin-right: 0;
+} */
 
 .profile_record .profile_sns li.github::before {
     content: 'Github';
@@ -221,6 +225,8 @@ header ul li:hover a{
 }
 .skils_box { 
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     margin: 80px 0 100px 0;
 }
 .skils_box div {
@@ -577,8 +583,95 @@ header ul li:hover a{
 }
 /* //portfolio */
 
+/* contact */
+#contact {
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(41,47,65);
+}
+.contact .container {
+    padding: 25px;
+    width: 500px;
+}
+.contact .contact_title h3 {
+    color: rgb(238, 163, 166);
+    font-size: 5rem;
+    text-align: center;
+    margin-top: 40px;
+    letter-spacing: 7px;
+    font-weight: 700;
+    font-family: 'Amatic SC', cursive;
+    margin-bottom: 40px;
+}
+.gform .input_box{
+    margin-bottom: 40px;
+}
+.gform .input_box input{
+    width: 100%;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    padding: 10px 0;
+    font-size: 1.3vw;
+    font-weight: 300;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+.gform .input_box textarea {
+    width: 100%;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    padding: 10px 0;
+    font-size: 1vw;
+    font-weight: 300;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+.gform .input_box button{
+    display: block;
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1vw;
+    font-weight: 500;
+    background: rgb(241, 105, 110);
+}
+.gform .input_box button:hover {
+    background:#fff;
+    color: rgb(241, 105, 110);
+}
+/* //contact */
 
-
+/* footer */
+#footer{ 
+    background-color: rgb(23, 27, 39);
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyrightText {
+    
+    padding: 8px 40px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    text-align: center;
+}
+.copyrightText p {
+    font-size: 1vw;
+    color: #fff;
+}
+.copyrightText a{
+    color: #ff0157;
+    font-weight: 500;
+}
+/* //footer */
 
 /* cursor */
 .cursor {
@@ -606,6 +699,235 @@ header ul li:hover a{
     transition: .15s;
 }
 
+
+
+/* 반응형 데스크탑(1) */
+@media( max-width: 1500px ){
+
+    /* banner */
+    .banner .container h2.bold {
+        animation: text2 3s 1;
+    }
+    .banner .container h2.bold span { animation: text2 3s 1;}
+    .banner .container h2.thin {
+        animation: text2 3s 1;
+    }
+    .banner .container h2.thin span { animation: text2 3s 1; }
+}
+@media( max-width: 1300px ){
+
+    /* banner */
+    .banner .container h2.bold {
+        font-size: 6.0rem;
+        margin-top: -70px;
+    }
+    .banner .container h2.thin {
+        font-size: 6.5rem;
+    }
+}
+
+/* 반응형 데스크탑(2) */
+@media( max-width: 1030px ){
+    /* header */
+    header {
+        padding: 10px 30px;
+    }
+    header .navigation {
+        display: none;
+    }
+    header .navigation li a{
+        font-size: 1.5rem;
+    }
+    header .navigation.active {
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 68px;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: rgba(23, 27, 39, 0.9);
+    }
+    .menuToggle{
+        position: relative;
+        width: 40px;
+        height: 40px;
+        background: url(../img/menu.png);
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+    }
+    .menuToggle.active{
+        background: url(../img/close.png);
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+        transition: transform .3s ease;
+    }
+    .menuToggle.active:hover {
+        transform: rotate(90deg);
+    }
+
+    /* banner */
+    .banner .container h2.bold {
+        font-size: 5rem;
+        margin-top: -60px;
+        animation: text3 3s 1;
+    }
+    .banner .container h2.bold span { animation: text3 3s 1;}
+    .banner .container h2.thin {
+        font-size: 5.5rem;
+        animation: text3 3s 1;
+    }
+    .banner .container h2.thin span { animation: text3 3s 1; }
+}
+
+@media( max-width: 960px ) {
+    /* banner */
+    .banner .container h2.bold {
+        font-size: 4.0rem;
+        margin-top: -40px;
+    }
+    .banner .container h2.thin {
+        font-size: 4.5rem;
+    }
+
+    /* profile */
+    .profile_title { font-size: 4rem;}
+    .profile_record h3 { display: none; }
+    .profile_record > span {
+        display: inline-block;
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+    .profile_content { display: block;}
+    .profile_content .profile_left {
+        margin: 0 auto;
+        width: 200px;
+        margin-bottom: 20px;
+    }
+    .profile_record { display: block}
+    .profile_record .profile_sns li:first-child{
+        margin-left: 50px;
+    }
+    .profile_record .profile_sns li a {
+        font-size: 2rem;
+        margin-right: 50px;
+    }
+    .profile_record .profile_sns li.github::before { 
+        left: -5px;
+        bottom: -12px;
+    }
+    .profile_record .profile_sns li.blog::before { 
+        left: -2px;
+        bottom: -12px;
+    }
+    .profile_record .profile_sns li.facebook::before { 
+        left: -12px;
+        bottom: -12px;
+    }
+    .profile_record .profile_sns li.instagram::before { 
+        left: -15px;
+        bottom: -12px;
+    }
+    
+    /* skils */
+    .skils .skils_title h3 {
+        font-size: 4rem;   
+    }
+    .skils_box div {
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* banner */
+    .banner .container h2.bold {
+        animation: none;
+    }
+    .banner .container h2.bold span { animation: none;}
+    .banner .container h2.thin {
+        animation: none;
+    }
+    .banner .container h2.thin span { animation: none; }
+
+    /* skils */
+    .skils_html {
+        width: 40%;
+        margin-bottom: 30px;
+    }
+    .skils_css {
+        width: 40%;
+        margin-bottom: 30px;
+    }
+    .skils_javascript {
+        width: 40%;
+        margin-left: -20px;
+    }
+    .skils_react {
+        width: 40%;
+    }
+}
+
+@media (max-width: 600px) {
+    .banner .container h2.bold {
+        font-size: 3rem;
+        margin-top: -40px;
+    }
+    .banner .container h2.thin {
+        font-size: 5rem;
+    }
+    /* skils */
+    .skils_box {
+        margin: 50px 0 100px 0;
+    }
+    .skils_html {
+        width: 60%;
+    }
+    .skils_css {
+        width: 60%;
+    }
+    .skils_javascript {
+        width: 60%;
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+    .skils_react {
+        width: 60%;
+        margin-left: -20px;
+    }
+    .skils_html i,
+    .skils_css i,
+    .skils_javascript i,
+    .skils_react i {
+        font-size: 4rem;
+    }
+    .skils_html p,
+    .skils_css p,
+    .skils_javascript p,
+    .skils_react p {
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (max-width: 460px) {
+    .banner .container h2.bold {
+        font-size: 2rem;
+        margin-top: -30px;
+    }
+    .banner .container h2.thin {
+        font-size: 4rem;
+    }
+}
+
+
+
 /* animation */
 @keyframes text {
     0% {
@@ -618,3 +940,29 @@ header ul li:hover a{
         letter-spacing: 8px;
     }
 }
+
+@keyframes text2 {
+    0% {
+        color: rgb(41,47,65);
+    }
+    30% {
+        letter-spacing: 20px;
+    }
+    85% {
+        letter-spacing: 5px;
+    }
+}
+
+
+@keyframes text3 {
+    0% {
+        color: rgb(41,47,65);
+    }
+    30% {
+        letter-spacing: 15px;
+    }
+    85% {
+        letter-spacing: 5px;
+    }
+}
+
