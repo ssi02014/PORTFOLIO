@@ -54,7 +54,7 @@
 
 <br>
 
-## 2020-12-07
+## 2020-12-08
  <ol>
   <li>
     <strong>Contact 영역 구현</strong>
