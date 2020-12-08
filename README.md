@@ -18,7 +18,9 @@
 
 
 ### Use Stuff 
-<strong>Font-Awesome, Google Font, Google Apps Mail</strong>
+1. <strong> Font-Awesome </strong> 
+2. <strong> Google Font </strong>
+3. <strong> Google Apps Mail </strong>
 
 
 ## 2020-12-01
