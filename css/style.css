@@ -616,7 +616,7 @@ header ul li:hover a{
     border: none;
     outline: none;
     padding: 10px 0;
-    font-size: 1.3vw;
+    font-size: 1.3rem;
     font-weight: 300;
     color: #fff;
     border-bottom: 2px solid #fff;
@@ -628,7 +628,7 @@ header ul li:hover a{
     border: none;
     outline: none;
     padding: 10px 0;
-    font-size: 1vw;
+    font-size: 1.3rem;
     font-weight: 300;
     color: #fff;
     border-bottom: 2px solid #fff;
@@ -639,7 +639,7 @@ header ul li:hover a{
     height: 50px;
     color: #fff;
     cursor: pointer;
-    font-size: 1vw;
+    font-size: 1.3rem;
     font-weight: 500;
     background: rgb(241, 105, 110);
 }
@@ -879,6 +879,8 @@ header ul li:hover a{
 }
 
 @media (max-width: 600px) {
+
+    /* banner */
     .banner .container h2.bold {
         font-size: 3rem;
         margin-top: -40px;
@@ -898,6 +900,7 @@ header ul li:hover a{
         font-size: 1rem;
     }
     .profile_content .profile_left { width: 150px; }
+
     /* skils */
     .skils_box {
         margin: 50px 0 100px 0;
@@ -946,9 +949,22 @@ header ul li:hover a{
         height: 60px;
     }
 
+    /* contact */
+    .gform .input_box input,
+    .gform .input_box textarea {
+        font-size: 1rem;
+    }
+    .gform .input_box button {
+        margin: 0 auto;
+        width: 100px;
+        height: 35px;
+        font-size: 1rem;
+    }
+
 }
 
 @media (max-width: 460px) {
+    /* banner */
     .banner .container h2.bold {
         font-size: 2rem;
         margin-top: -30px;
@@ -961,6 +977,7 @@ header ul li:hover a{
     .contact .container { padding: 10px;}
     .contact .contact_title h3 { margin-top: 0;}
 
+    /* skils */
     .skils_html {
         width: 52%;
     }
