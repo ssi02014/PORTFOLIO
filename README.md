@@ -4,6 +4,11 @@
 
 ## 사용 스텍: HTML, CSS, Vanila JavaScript 
 
+## 결과 화면
+
+![완성](https://user-images.githubusercontent.com/64779472/101477673-e4b4e180-3992-11eb-8f23-e5bebdc73d1e.jpg)
+
+
 ### 포트폴리오 설명: 전민재 PORTFOLIO
 1. Banner - Text Animation
 2. Skils - Hover Effect
